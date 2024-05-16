@@ -2,7 +2,7 @@
 
 In the home we have a [pcap file](https://www.endace.com/learn/what-is-a-pcap-file). So we can open it in `wireshark` to anaylize it.  
 
-As we search a password we want to find it in the file. We can used `Follow TCP Stream` option in `wireshark` to extract data.  
+As we search a password we want to find it in the file. We can used [Follow TCP Stream](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html) option in `wireshark` to extract data.  
 By default this data are print as ASCII format:  
 
 ```bash
