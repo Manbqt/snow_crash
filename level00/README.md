@@ -17,5 +17,8 @@ Password:
 Don't forget to launch getflag !
 flag00@SnowCrash:~$ getflag
 Check flag.Here is your token : x24ti5gi3x0ol2eh4esiuxias
+flag00@SnowCrash:~$ su level01
+Password: 
+level01@SnowCrash:~$
 ```
 
