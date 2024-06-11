@@ -34,7 +34,7 @@ Check flag.Here is your token : fa6v5ateaw21peobuub8ipe6s
 Erf nope..
 ```
 
-We can also use `tee` command to get the flag. This command read the stdout and write the content stdout AND file given.  
+We can also use `tee` command to get the flag. This command read the stdout and write the content int stdout AND in file(s) given.  
 
 ```bash
 level11@SnowCrash:~$ nc 127.0.0.1 5151
