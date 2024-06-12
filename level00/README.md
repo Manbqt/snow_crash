@@ -9,7 +9,8 @@ level00@SnowCrash:~$ find / -user flag00 2>/dev/null
 level00@SnowCrash:~$ cat /usr/sbin/john
 cdiiddwpgswtgt
 ```
-We have a string who seems be encrypted. So we have use an [online tool](https://www.cachesleuth.com/multidecoder/) to try decrypt it. We obtain a lot of strings but one stands out `nottoohardhere`.  
+
+We have a string who seems be encrypted. So we have use an [online tool](https://www.dcode.fr/identification-chiffrement) to try identify the type of encryption. We obtain a lot of strings but one stands out `nottoohardhere`.  It's a `rot11`. 
 
 ```bash
 level00@SnowCrash:~$ su flag00

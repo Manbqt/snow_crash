@@ -1,4 +1,4 @@
-# level05
+# Level05
 
 When we connect on the machine, we have a message displayed: 
 ```bash
@@ -13,7 +13,7 @@ level05@SnowCrash:/var/mail$ cat level05
 
 The `level05` file seem to be an hint about a crontab.
 
-The home is empty but in `/usr/sbin/openarenaserver` have a `sh script`.
+The home is empty but in `/usr/sbin/openarenaserver` have a `script bash`.
 It execute all files presents in `/opt/openarenaserver/` and delete it.  
 
 ```bash

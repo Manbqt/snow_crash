@@ -1,4 +1,4 @@
-# Level 10
+# Level10
 
 In this level we have 2 files. The first is a file named `token` and the second is a binary.  
 This program take a file and ip address. An `access` control is take with the function `access`
@@ -11,7 +11,7 @@ level10@SnowCrash:~$ ./level10 /tmp/test 192.168.56.114
 Connecting to 192.168.56.114:6969 .. Unable to connect to host 192.168.56.114
 ```
 
-We know that we need to listen the port 6969. 
+We know that we need to listen the port 6969.  
 
 ```bash
 ┌─[✗]─[parrot@parrot]─[~]

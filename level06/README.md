@@ -27,14 +27,14 @@ Our content must be something like: `[x INTERPRETED]` because of must start by `
 First we have try this content: It's not working:  
 
 ```bash
-level06@SnowCrash:~$ echo "[x system("ls")]" > /tmp/test
+level06@SnowCrash:~$ echo "[x system(ls)]" > /tmp/test
 level06@SnowCrash:~$ ./level06 /tmp/test
 system(ls)
 ```
 
 In fact, this variable is called [dynamic variable](https://www.php.net/manual/fr/language.variables.variable.php) because of the content can be determinated by php code.
 
-Our file content must be:  
+Our file must be:  
 `[x {${system(getflag)}} ]`
 
 # Why ?  

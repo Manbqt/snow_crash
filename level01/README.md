@@ -1,6 +1,6 @@
-# level01
+# Level01
 
-We are in a `level1` home but it is (again) empty. During our level00 exploration we have read `/etc/passwd` file.  
+We are in a `level01` home but it is (again) empty. During our previously exploration we have read `/etc/passwd` file.  
 The password of `flag01` was present but hashed:  
 
 ```bash

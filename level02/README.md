@@ -1,8 +1,8 @@
-# level02
+# Level02
 
 In the home we have a [pcap file](https://www.endace.com/learn/what-is-a-pcap-file). So we can open it in `wireshark` to anaylize it.  
 
-As we search a password we want to find it in the file. We can used [Follow TCP Stream](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html) option in `wireshark` to extract data.  
+As we search a password we want to find it in the packets. We can used [Follow TCP Stream](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html) option in `wireshark` to extract data.  
 By default this data are print as ASCII format:  
 
 ```bash
@@ -20,7 +20,7 @@ Login incorrect
 wwwbugs login: 
 ```
 
-We have `.`, it's mean it's maybe a char non printable. So we must print the content in hexadecimal to show what happened:  
+We have char like `.`, it's mean it's maybe a non printable char. So we must print the content in hexadecimal to show what happened:  
 
 ```bash
 000000B8  0d                                                 .
@@ -49,7 +49,7 @@ We have `.`, it's mean it's maybe a char non printable. So we must print the con
 000000CD  0d                                                 .
 ```
 
-With the hex format we can see that some `.` are a `backspace`.  
+With the hex format we can see that some `.` are a `7f` so are `backspace`.  
 Finally we have `ft_waNDReL0L` as flag02's password.  
 
 ```bash
