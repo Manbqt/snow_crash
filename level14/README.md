@@ -3,8 +3,7 @@
 At this level we don't have anything in the home repository. After research without success we have tried to disas `getflag` program.  
 Using `ghidra` we have the [code](./resources/main.c).  
 This code check a ptrace return and verify uid of the user to give or not a flag.  
-So to get the last flag we must have a uid like `3014`. Because of this uid is this of flag14 (`/etc/passwd`).   
-
+So to get the last flag we need to have the uid of `3014`, that's the one for the user flag14 (`/etc/passwd`).
 
 ```bash
 (gdb) b main
