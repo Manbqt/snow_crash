@@ -1,10 +1,10 @@
 # Level12
 
 
-This `perl` script is a server in port `4646`. 
-There are two parameters, 1 of which `x` has been modified and used.  
+This `perl` script is a server listening on port `4646`. 
+There are two parameters `x` and `y`. `x` parameter is modified and used.  
 
-Each char of this parameter is uppercased using [binding operator](https://perldoc.perl.org/perlop#Binding-Operators). The parameter is also split when a space in find.  
+Each char of this parameter is uppercased using [binding operator](https://perldoc.perl.org/perlop#Binding-Operators). The parameter is also split when a space is find.  
 For example: `x="hello world"`
 After the changement, x will be: `HELLO`
 

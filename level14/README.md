@@ -1,9 +1,10 @@
 # Level14
 
-In this level we don't have nothing. After research without success we have try to disas `getflag` program.  
+At this level we don't have anything in the home repository. After research without success we have tried to disas `getflag` program.  
 Using `ghidra` we have the [code](./resources/main.c).  
 This code check a ptrace return and verify uid of the user to give or not a flag.  
-So to get the last flag we must have a uid as `3014`.
+So to get the last flag we must have a uid like `3014`. Because of this uid is this of flag14 (`/etc/passwd`).   
+
 
 ```bash
 (gdb) b main
@@ -24,7 +25,6 @@ Check flag.Here is your token : 7QiHafiNa3HVozsaXkawuYrTstxbpABHD8CPnHJ
 ```
 
 It's working ! We have our token. 
-Inspecting `/etc/passwd` we can know who has a uid like `3014`.
 
 ```bash
 flag14:x:3014:3014::/home/flag/flag14:/bin/bash

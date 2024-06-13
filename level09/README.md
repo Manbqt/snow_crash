@@ -1,7 +1,7 @@
 # Level09
 
 In this level we have an executable and a file named `token`.  
-We have try the program to understand it:
+We have tried the program to understand it:
 
 ```bash
 level09@SnowCrash:~$ ./level09 aaa

@@ -1,6 +1,6 @@
 # Level08
 
-In this level we 2 files. An executable and a file called `token` int which we don't have permissions.
+In this level we have 2 files. An executable and a file called `token` int which we don't have permissions.
 This program reads a file as long as his name is different from `token`. So we have try to create a `symbolic link` of this file to get his content.  
 The only person who has access to this file is flag08. It's good because we have (again) the SUID activated.  
 So the file will be read by the program even if we haven't permissions. 

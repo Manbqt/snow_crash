@@ -1,6 +1,6 @@
 # Level11
 
-We have a `lua` program. It's a server in port `5151` in which a password is waiting.  
+We have a `lua` program. This is a server listening on port 5151 on which a password is expected.  
 So we can launch a client with `nc`.  
 
 ```bash
